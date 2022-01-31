@@ -1,0 +1,17 @@
+.body-heading{
+    color:#271B46;
+    font-size:32px ;
+    font-style: semiBold;
+    font-weight: 600;
+}
+.body-des{
+    margin: 0 25%;
+}
+@media only screen and (max-width:992px){
+    .body-des{
+        margin: 0;
+    }
+    .browsing-banar{
+        display: none;
+    }
+}
