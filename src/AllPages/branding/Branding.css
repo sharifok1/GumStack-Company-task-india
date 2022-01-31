@@ -1,0 +1,17 @@
+.brand-cycle{
+    background-color:#FFF9FA ;
+}
+.alt-heading{
+    display: none;
+}
+@media only screen and (max-width:992px){
+    .main-heading{
+        display: none;
+    }  
+    .alt-heading{
+        display: block;
+    }
+    .service-des{
+        display: none;
+    }
+}

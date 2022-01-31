@@ -58,9 +58,9 @@ const BodyContent = () => {
                     <div className='my-auto mt-5 text-start ps-md-5'>
                         <h2 className='fs-4 text-center text-md-start'>Schedule callback when you are not around</h2>
                          <ul className='text-start text-card'>
-                             <li className='py-2'>Automatically capture contact details and schedule callback</li>
-                             <li className='py-2'>Book meeting only during your office hours</li>
-                             <li className='py-2'>Use any software to complete the call- Zoom, Meet, or just phone</li>
+                             <li className='py-2'>&nbsp; Automatically capture contact details and schedule callback</li>
+                             <li className='py-2'>&nbsp; Book meeting only during your office hours</li>
+                             <li className='py-2'>&nbsp; Use any software to complete the call- Zoom, Meet, or just phone</li>
                          </ul>
                     </div>
                  </div>
@@ -71,9 +71,9 @@ const BodyContent = () => {
                   <div className='my-auto mt-5 text-start ps-md-5 order-1'>
                         <h2 className='fs-2 text-center text-md-start'>Schedule callback when you are not around</h2>
                          <ul className='text-start text-card'>
-                             <li className='py-2'>Show availability across your agents’ calendar</li>
-                             <li className='py-2'>Send reminders so that they don’t forget their appointments</li>
-                             <li className='py-2'>Use any software to complete the call- Zoom, Meet, or just phone</li>
+                             <li className='py-2'>&nbsp; Show availability across your agents’ calendar</li>
+                             <li className='py-2'>&nbsp; Send reminders so that they don’t forget their appointments</li>
+                             <li className='py-2'>&nbsp; Use any software to complete the call- Zoom, Meet, or just phone</li>
                          </ul>
                     </div>
                     <div className='p-4 date-card pb-5 order-md-2 email-card'>
