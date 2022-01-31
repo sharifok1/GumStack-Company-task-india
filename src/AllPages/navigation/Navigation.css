@@ -8,6 +8,7 @@
 }
 .logo{
     width: 28px;
+    border-radius: 5px;
 }
 .brandName{
     font-size: 24px;

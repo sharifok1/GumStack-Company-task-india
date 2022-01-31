@@ -24,7 +24,7 @@ const Branding = () => {
                              <li className='py-2'>&nbsp; Integrate using Google Tag Manager, or add a few lines of script to your website.</li>
                              <li className='py-2'>&nbsp; 1-click installations for Shopify, Wordpress, Wix.</li>
                              <li className='py-2'>&nbsp; Install easily on Webflow, Squarespace and more.</li>
-                             <button className='mt-4 mb-3 mt-5 btn-style ms-5 ms-md-0'>Talk to our developer <i class="fas fa-arrow-right"></i></button>
+                             <button className='mt-4 mb-3 mt-5 btn-style ms-3 ms-md-0'>Talk to our developer &nbsp; <i class="fas fa-arrow-right"></i></button>
                          </ul>     
                 </div>
                 <div className='col-md-6 order-md-2'>
@@ -115,6 +115,8 @@ const Branding = () => {
                 </div>
                 
              </div>
+             <button className='mt-4 mb-3 mt-5 btn-style'>Get started for free &nbsp; <i class="fas fa-arrow-right"></i></button>
+             <p className='text-secondary powerby-text'>Powered by Gumstack</p>
         </Container>       
 </div>
         

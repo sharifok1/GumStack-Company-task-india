@@ -1,0 +1,25 @@
+.review-info{
+    width: 50%;
+    margin: 0 auto;
+}
+.review-info2{
+    width: 78%;
+    margin: 0 auto;
+}
+.review-info2 p{
+    color:rgba(45, 32, 77, 1);
+    font-weight: 500;
+    font-size: 32px;
+    margin-top: 2rem;
+}
+@media only screen and (max-width:992px){
+    .review-info{
+        width: 90%;
+    }
+    .review-info2{
+     width: 95%;
+    }
+    .review-info2 p{
+     font-size: 20px;
+    }
+}

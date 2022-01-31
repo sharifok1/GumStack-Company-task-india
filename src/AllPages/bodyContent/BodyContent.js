@@ -69,7 +69,7 @@ const BodyContent = () => {
              <div>
                  <div className='d-flex justify-content-evenly body-dubble-card mt-4 order-1'>
                   <div className='my-auto mt-5 text-start ps-md-5 order-1'>
-                        <h2 className='fs-2 text-center text-md-start'>Schedule callback when you are not around</h2>
+                        <h2 className='fs-4 text-center text-md-start'>Sync your team’s calendar and manage <br /> schedules without a separate calendar software</h2>
                          <ul className='text-start text-card'>
                              <li className='py-2'>&nbsp; Show availability across your agents’ calendar</li>
                              <li className='py-2'>&nbsp; Send reminders so that they don’t forget their appointments</li>
@@ -77,7 +77,7 @@ const BodyContent = () => {
                          </ul>
                     </div>
                     <div className='p-4 date-card pb-5 order-md-2 email-card'>
-                        <h1 className='fs-5 mb-5'>When would you like to <br /> schedule the call?</h1>
+                        <h1 className='fs-5 mb-5'>Sync your Googe Calendar account and update <br /> it as calls gets scheduled on Gumstack</h1>
                         <div className='add-email'>
                             <input type="text" value="George@gmail.com" className='inputMail'/><button className='add'>Add</button>
                         </div>

@@ -4,6 +4,9 @@
 .alt-heading{
     display: none;
 }
+.powerby-text{
+    display: none;
+}
 @media only screen and (max-width:992px){
     .main-heading{
         display: none;
@@ -13,5 +16,8 @@
     }
     .service-des{
         display: none;
+    }
+    .powerby-text{
+        display: block;
     }
 }

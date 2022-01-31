@@ -42,17 +42,18 @@
     padding: 15px ;
 }
 .add-email{
-    border: 2px solid #111;
+    /* border: 2px solid #111; */
     border-radius: 5px;
-    margin: -5px -2px;
     margin-right:px;
     display: flex;
+    padding-top:-3px;
+    padding: 0;
     justify-content: space-between;
     background-color: #fff; 
+    height: 35px;
+    box-shadow: 0 0 1px 1px #271B46;
 }
-.altBtn1{
-    display: none;
-}
+
 
 .inputMail{
 border: none;
@@ -60,14 +61,15 @@ padding: 5px;
 border-radius:5px;
 }
 .add{
-position: relative;
- border-top-right-radius: 2px;
- border-bottom-right-radius: 2px;
- margin: 0;
- padding: 5px 15px;
+ border-top-right-radius: 3px;
+ border-bottom-right-radius: 3px;
+ padding: 2px 15px;
  border: none;
  background-color:#271B46;
  color:#dddd;
+}
+.altBtn1{
+    display: none;
 }
 .container-getintouch{
     width: 100%;
@@ -88,9 +90,6 @@ position: relative;
     .altBtn1{
         display: block;
     }
-  .add-email{
-    margin:-4px -2px;
-  }
     .alt-btn2{
         display: none;
     }
