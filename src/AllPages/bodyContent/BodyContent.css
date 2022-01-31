@@ -1,11 +1,79 @@
 .body-heading{
     color:#271B46;
-    font-size:32px ;
+    font-size:36px ;
     font-style: semiBold;
     font-weight: 600;
 }
 .body-des{
     margin: 0 25%;
+}
+.btn-style{
+    background-color: rgba(95, 111, 191, 1);
+    border:none;
+    border-radius: 7px;
+    box-shadow:0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    padding: 13px 36px;
+    color:#eee;
+    font-weight: 700;
+    font-size: 18px;
+}
+.date-card{
+    background-color: rgba(255, 244, 231, 1);
+    border-radius: 10px;
+    border: 2px solid #eee;
+}
+.email-card{
+    background-color: rgba(232, 244, 255, 1);
+}
+.text-card{
+    list-style:url('../../asset/arrow.png');
+}
+.service-list{
+    list-style:none;
+}
+.service-icon img{
+ width: 7%;
+ /* height: 24px; */
+}
+.date-btn{
+    border: 2px solid #999;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 15px ;
+}
+.add-email{
+    border: 2px solid #111;
+    border-radius: 5px;
+    margin: -5px -2px;
+    margin-right:px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff; 
+}
+.altBtn1{
+    display: none;
+}
+
+.inputMail{
+border: none;
+padding: 5px;
+border-radius:5px;
+}
+.add{
+position: relative;
+ border-top-right-radius: 2px;
+ border-bottom-right-radius: 2px;
+ margin: 0;
+ padding: 5px 15px;
+ border: none;
+ background-color:#271B46;
+ color:#dddd;
+}
+.container-getintouch{
+    width: 100%;
+}
+.alt-getIn{
+    display: none; 
 }
 @media only screen and (max-width:992px){
     .body-des{
@@ -13,5 +81,22 @@
     }
     .browsing-banar{
         display: none;
+    }
+    .body-dubble-card{
+        flex-direction: column;
+    }
+    .altBtn1{
+        display: block;
+    }
+  .add-email{
+    margin:-4px -2px;
+  }
+    .alt-btn2{
+        display: none;
+    }
+    .alt-getIn{
+        display: block;
+        width: auto;
+        margin: 0 auto;
     }
 }

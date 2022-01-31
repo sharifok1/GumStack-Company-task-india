@@ -18,7 +18,7 @@ const HomePage = () => {
                 <p className='text-white mb-5 mt-2 me-lg-5 pe-lg-3'>
                 Integrate video calling on your website/app in under 5 minutes. Showcase your products, assist them with their purchase or help resolve issues faster with video.
                 </p>
-                <button className='border-0 p-1 px-2 mt-4 mb-5 '>Register for a demo </button>
+                <button className=' mt-4 mb-5 pink-btn-style'>Register for a demo <i class="fas fa-arrow-right"></i></button>
               </div>
               <div className='col-md-6 mt-4 '>
                     <img className='img-fluid' src={circleImg} alt="" />
